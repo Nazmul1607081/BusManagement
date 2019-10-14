@@ -1,0 +1,33 @@
+# I am a comment, and I want to say that the variable CC will be
+# the compiler to use.
+CC=g++
+# Hey!, I am comment number 2. I want to say that CFLAGS will be the
+# options I'll pass to the compiler.
+CFLAGS=-c -Wall
+
+all: main
+
+hello: about_us.h addpassenger.h bus_management.h gotoxy.h myhader.h new.h passenger.h
+	$(CC) about_us.h addpassenger.h bus_management.h gotoxy.h myhader.h new.h passenger.h -o main
+
+about_us.h: about_us.c
+	$(CC) $(CFLAGS) about_us.h
+addpassenger.h: addpassenger.c
+	$(CC) $(CFLAGS) addpassenger.h
+
+bus_management.h: bus_management.c
+	$(CC) $(CFLAGS) bus_management.h
+gotoxy.h: gotoxy.c
+	$(CC) $(CFLAGS) gotoxy.h
+myhader.h: myhader.c
+	$(CC) $(CFLAGS) about_us.h
+new.h: new.c
+	$(CC) $(CFLAGS) new.h
+passenger.h: passenger.c
+	$(CC) $(CFLAGS) passenger.h
+
+
+clean:
+	del *.o *.exe
+
+rebuild: clean all

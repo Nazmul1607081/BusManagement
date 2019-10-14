@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1511772389 source:e:\bus management project\gotoxy.c
+	<windows.h>
+	<stdio.h>
+
+1512442801 source:e:\bus management project\bus_management.c
+	<stdio.h>
+
+1512462200 source:e:\bus management project\about us.c
+	<stdio.h>
+
+1512083667 source:e:\bus management project\main.c
+	"myheader.h"
+
+1511772195 e:\bus management project\gotoxy.h
+
+1511798387 e:\bus management project\bus_managment.h
+
+1511773268 e:\bus management project\about_us.h
+
+1511773928 e:\bus management project\passengar.h
+
+1512456612 source:e:\bus management project\passengar.c
+	<stdio.h>
+
+1512079511 e:\bus management project\myheader.h
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+	<dos.h>
+	<ctype.h>
+	<windows.h>
+	"gotoxy.h"
+	"bus_managment.h"
+	"about_us.h"
+	"passengar.h"
+	"new.h"
+
+1512446753 e:\bus management project\new.h
+
+1512464452 source:e:\bus management project\new.c
+	<stdio.h>
+
+1512462200 source:e:\1607081\about us.c
+	<stdio.h>
+
+1512442801 source:e:\1607081\bus_management.c
+	<stdio.h>
+
+1511772389 source:e:\1607081\gotoxy.c
+	<windows.h>
+	<stdio.h>
+
+1512083667 source:e:\1607081\main.c
+	"myheader.h"
+
+1512079511 e:\1607081\myheader.h
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+	<dos.h>
+	<ctype.h>
+	<windows.h>
+	"gotoxy.h"
+	"bus_managment.h"
+	"about_us.h"
+	"passengar.h"
+	"new.h"
+
+1511772195 e:\1607081\gotoxy.h
+
+1511798387 e:\1607081\bus_managment.h
+
+1511773268 e:\1607081\about_us.h
+
+1511773928 e:\1607081\passengar.h
+
+1512446753 e:\1607081\new.h
+
+1512464452 source:e:\1607081\new.c
+	<stdio.h>
+
+1512456612 source:e:\1607081\passengar.c
+	<stdio.h>
+

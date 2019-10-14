@@ -1,0 +1,6 @@
+#ifndef ADDPASSENGER_H_INCLUDED
+#define ADDPASSENGER_H_INCLUDED
+
+addpassenger();
+
+#endif // ADDPASSENGER_H_INCLUDED
